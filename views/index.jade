@@ -1,4 +1,42 @@
 h1= title
-p Welcome to #{title}
+
+div.splitter
+    div.left
+        div.navAlpha
+          p Welcome to #{title}'s Portfolio Site
+
+          a(href='http://www.linkedin/in/adron')
+            | <img alt="Linkedin" src="images/linkedin.png" style="border: 0px" />
+          br
+          a(href='http://twitter.com/adron')
+            | <img alt="Twitter @adron" src="images/twitter.png" style="border: 0px" />
+          br
+          a(href='http://www.facebook.com/adron')
+            | <img alt="Facebook" src="images/facebook.png" style="border: 0px" />
+
+        div.navBeta
+          p #{title}'s Other Web Presence
+
+          ul
+            li
+              a(href='http://compositecode.com')
+                | Composite Code
+            li
+              a(href='https://github.com/Adron')
+                | Github
+            li
+              a(href='http://www.linkedin.com/in/adron')
+                | LinkedIn
+            li
+              a(href='http://www.facebook.com/adron')
+                | Facebook
+            li
+              a(href='http://twitter.com/adron')
+                | Twitter
+
+    div.right
+        div.crazy
+          p the content
+
 
 
